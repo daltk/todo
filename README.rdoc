@@ -7,10 +7,10 @@
    - Twitter Boot Strap
    - Watir for testing.
 
-Completed User stories are :
+- Completed User stories are :
 
-As a user, I want to create a task so that I will not forget something to do.
-As a user, I want to create a task with a deadline so that I will not miss deadline.
-As a user, I want to edit a task so that I can change a task after I created
-As a user, I want to delete a task so that I can remove task which is not a task any more.
+   - As a user, I want to create a task so that I will not forget something to do.
+   - As a user, I want to create a task with a deadline so that I will not miss deadline.
+   - As a user, I want to edit a task so that I can change a task after I created
+   - As a user, I want to delete a task so that I can remove task which is not a task any more.
 
