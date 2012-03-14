@@ -1,19 +1,24 @@
-<h1>Tasks</h1>
+<h1>To-Do list</h1>
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>ID</th>
       <th>Description</th>
-      <th>Created at</th>
-      <th>Actions</th>
+      <th>Deadline</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
     <% @tasks.each do |task| %>
       <tr>
-        <td><%= task.id %></td>
         <td><%= link_to task.description, task_path(task) %></td>
-        <td><%= task.created_at %></td>
+       
+        <td><%= task.deadline.strftime("%a, %B %d, %Y at %I:%M%p") %></td>
+       
+        <% if task.deadline - Time.now > 0 then %>
+          <th><%= task.status %></th>
+        <% else %>
+          <td style="color:red;">Over Due</td>
+        <% end %>
         <td>
           <%= link_to 'Edit', edit_task_path(task), :class => 'btn btn-mini' %>
           <%= link_to 'Destroy', task_path(task), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-mini btn-danger' %>

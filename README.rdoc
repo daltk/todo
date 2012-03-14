@@ -13,4 +13,8 @@
    - As a user, I want to create a task with a deadline so that I will not miss deadline.
    - As a user, I want to edit a task so that I can change a task after I created
    - As a user, I want to delete a task so that I can remove task which is not a task any more.
+   - As a user, I want to see tasks list ordered by deadline
+   - As a user, I want to see all tasks which didn't meet deadline as of today shown status as Over Due.
+   - As a user, I want to mark a task as done so that I can distinguish incomplete tasks from complete ones, youc an edit and change to waht ever you want.
+
 
