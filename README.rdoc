@@ -1,1 +1,16 @@
 = Quipper TODO application.
+
+- I have used following list to build the demo application 
+
+   - Ruby 1.9.2
+   - Rails 2.3.2
+   - Twitter Boot Strap
+   - Watir for testing.
+
+Completed User stories are :
+
+As a user, I want to create a task so that I will not forget something to do.
+As a user, I want to create a task with a deadline so that I will not miss deadline.
+As a user, I want to edit a task so that I can change a task after I created
+As a user, I want to delete a task so that I can remove task which is not a task any more.
+
